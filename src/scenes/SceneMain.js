@@ -41,7 +41,7 @@ class SceneMain extends Phaser.Scene {
     this.load.image('sprLaserPlayer', 'content/sprLaserPlayer.png');
     this.load.spritesheet('sprPlayer', 'content/xWing.png', {
       frameWidth: 32,
-      frameHeight: 37,
+      frameHeight: 32,
     });
 
     this.load.audio('sndExplode0', 'content/sndExplode0.wav');
